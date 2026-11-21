@@ -41,11 +41,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<your-org>/agrolane.git"
+    "url": "git+https://github.com/YUN2023c/Agrolane.git"
   },
-  "homepage": "https://github.com/<your-org>/agrolane#readme",
+  "homepage": "https://github.com/YUN2023c/Agrolane#readme",
   "bugs": {
-    "url": "https://github.com/<your-org>/agrolane/issues"
+    "url": "https://github.com/YUN2023c/Agrolane/issues"
   },
   "dependencies": {
     "express": "^5.3.0"

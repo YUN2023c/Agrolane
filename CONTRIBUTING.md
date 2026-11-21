@@ -28,7 +28,7 @@
 ## 本地开发
 
 ```bash
-git clone https://github.com/<your-org>/agrolane.git
+git clone https://github.com/YUN2023c/Agrolane.git
 cd agrolane
 npm install          # 仅 express
 npm run dev          # 带 --watch 的启动方式

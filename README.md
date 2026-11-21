@@ -131,7 +131,7 @@
 ### 方式二：命令行
 
 ```bash
-git clone https://github.com/<your-org>/agrolane.git
+git clone https://github.com/YUN2023c/Agrolane.git
 cd agrolane
 npm install     # 仅 express 一个依赖
 npm start       # http://localhost:3000
@@ -487,7 +487,7 @@ SQLite + WAL 支持少量并发读；当前没有鉴权，不适合直接公网�
 
 ```bash
 # 1. fork & clone
-git clone https://github.com/<your-name>/agrolane.git
+git clone https://github.com/YUN2023c/Agrolane.git
 cd agrolane
 
 # 2. 建分支
@@ -523,7 +523,7 @@ git commit -m "feat(match): add season-aware capacity penalty"
   author       = {{Yunchuan}},
   year         = {2026},
   version      = {1.0.0},
-  url          = {https://github.com/<your-org>/agrolane},
+  url          = {https://github.com/YUN2023c/Agrolane},
   note         = {Geo retrieval with geohash prefix indexing, RRF multi-channel recall and explainable ranking}
 }
 ```
