@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software in research or production, please cite it as below."
+title: "Agrolane: A Location-Based Retrieval Workbench for County Agricultural Matching"
+abstract: >-
+  Agrolane (农道) is a full-stack workbench for agricultural brokers and supply-chain integrators.
+  It stores upstream and downstream entities in a local SQLite ledger, performs geohash
+  prefix-indexed geo retrieval around a manually entered origin, fuses geo, content and
+  popularity recall channels with reciprocal rank fusion, and ranks candidates with an
+  explainable weighted model (content similarity, fulfillment/credit, price fit, distance).
+type: software
+authors:
+  - name: "Yunchuan"
+version: "1.0.0"
+date-released: "2026-11-21"
+license: MIT
+repository-code: "https://github.com/<your-org>/agrolane"
+url: "https://github.com/<your-org>/agrolane"
+keywords:
+  - location-based recommendation
+  - geo retrieval
+  - geohash
+  - reciprocal rank fusion
+  - explainable ranking
+  - agriculture supply chain
+  - LBS
+  - SQLite
+  - Node.js
+  - 农业撮合
+  - 地理召回

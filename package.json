@@ -1,0 +1,53 @@
+{
+  "name": "agrolane",
+  "version": "1.0.0",
+  "description": "B2B matching search workbench for agricultural brokers: geohash geo retrieval, RRF multi-channel recall, explainable ranking. Node.js + SQLite, zero-build frontend.",
+  "main": "server/index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server/index.js",
+    "seed": "node --disable-warning=ExperimentalWarning scripts/reset-db.js",
+    "test": "node --disable-warning=ExperimentalWarning scripts/smoke-test.js"
+  },
+  "keywords": [
+    "geo-retrieval",
+    "geohash",
+    "lbs",
+    "location-based-recommendation",
+    "recommendation-system",
+    "reciprocal-rank-fusion",
+    "explainable-ranking",
+    "matching-engine",
+    "spatial-index",
+    "agriculture",
+    "agri-supply-chain",
+    "county-agriculture",
+    "nodejs",
+    "express",
+    "sqlite",
+    "vanilla-javascript",
+    "full-stack",
+    "农业撮合",
+    "地理召回",
+    "县域农业",
+    "供需匹配",
+    "供应链"
+  ],
+  "author": "Yunchuan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<your-org>/agrolane.git"
+  },
+  "homepage": "https://github.com/<your-org>/agrolane#readme",
+  "bugs": {
+    "url": "https://github.com/<your-org>/agrolane/issues"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
