@@ -130,7 +130,9 @@
 
 ### 方式二：Windows 绿色便携包（免安装）
 
-下载 `dist/Agrolane-portable.zip`，解压后双击 `START.bat`。包内自带 Node.js 运行时、Express 依赖与前端资源，**无需安装 Node、无需联网、无需 `npm install`**。解压后保持整个 `Agrolane` 文件夹完整，不要单独移动某个文件。首次启动自动建库并写入基础字典，业务数据保存在包内 `data/agrolane.db`。
+下载 `dist/Agrolane-portable.zip`，解压后双击 **`Agrolane.exe`**（主程序，非脚本）。它内置 Node.js 运行时，通过 SEA 加载同目录的 `server/index.js`，**无需安装 Node、无需联网、无需 `npm install`**。服务就绪后自动打开浏览器。
+
+解压后保持整个 `Agrolane` 文件夹完整——exe 依赖同目录的 `server/`、`public/` 与 `node_modules/`，不要单独移动某个文件。首次运行自动建库并写入基础字典，业务数据保存在包内 `data/agrolane.db`。关闭运行时弹出的控制台窗口即停服。
 
 ### 方式三：命令行
 
