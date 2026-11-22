@@ -128,7 +128,11 @@
 
 关闭标题为 `Agrolane Server` 的窗口即停服。
 
-### 方式二：命令行
+### 方式二：Windows 绿色便携包（免安装）
+
+下载 `dist/Agrolane-portable.zip`，解压后双击 `START.bat`。包内自带 Node.js 运行时、Express 依赖与前端资源，**无需安装 Node、无需联网、无需 `npm install`**。解压后保持整个 `Agrolane` 文件夹完整，不要单独移动某个文件。首次启动自动建库并写入基础字典，业务数据保存在包内 `data/agrolane.db`。
+
+### 方式三：命令行
 
 ```bash
 git clone https://github.com/YUN2023c/Agrolane.git

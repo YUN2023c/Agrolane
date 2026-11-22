@@ -7,3 +7,4 @@ data/*.bak-*
 logs/
 .DS_Store
 *.log
+dist/
