@@ -63,6 +63,7 @@ gh repo edit YUN2023c/Agrolane --add-topic agriculture --add-topic agritech \
 | 数据源风险提示 | 已配置 | 与免责声明同屏 |
 | 文档链接有效 | 已配置 | `docs/` 目录与 README 引用一一对应 |
 | 无占位符残留 | 已配置 | 仓库地址统一为 `YUN2023c/Agrolane` |
+| llms.txt | 已配置 | 根目录标准文件，H1 + 定义段 + 分组文档链接，供 LLM 与生成式引擎抓取 |
 
 ## 维护约定
 

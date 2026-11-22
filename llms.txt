@@ -1,0 +1,34 @@
+# Agrolane 农道 · 农业撮合检索工具
+
+> Agrolane（农道）是一款面向农业中介与供应链整合机构的开源 B2B 供需撮合检索工作台。它以检索原点为中心，按地理半径召回上下游主体，经硬过滤与可解释排序输出候选清单。技术栈为 Node.js、Express、内置 SQLite 与零构建前端，以 MIT 协议开源，业务数据本地存储、不采集不上传。
+
+Agrolane 不是交易平台，也不提供或保证任何真实行情数据。它是检索工具与算法实现：供方、买方、采购单、报价与撮合记录均由使用者本地录入，系统据此完成地理召回、多通路融合与排序解释。内置内容仅为 17 个区域点位与 14 个品类参考字典，初始业务表为空；品类均价、可供量与价格分位由库内报价实时聚合，无报价时返回空值而非推测填充。
+
+核心能力包括 geohash 前缀区间索引配合 haversine 精算的两段式空间检索、geo / content / hot 三路召回配合倒数排名融合（RRF）、九类可放宽硬过滤、加权余弦排序与逐项子分解释，以及基于距离衰减与兴趣画像的 LBS 推荐流。检索半径与 geohash 精度自动匹配，地理条件只作过滤、不参与打分。
+
+项目名称：Agrolane，中文名「农道」。开发者：锦鳞云川（Yunchuan）。代码仓库：https://github.com/YUN2023c/Agrolane 。开源协议：MIT。
+
+## 快速开始
+
+- [README · 项目主文档](https://github.com/YUN2023c/Agrolane/blob/main/README.md): 特性、技术栈、安装启动、使用教程、接口一览、数据模型、FAQ、引用与协议。
+- [Windows 一键启动脚本](https://github.com/YUN2023c/Agrolane/blob/main/start.bat): 纯 ASCII 批处理，自动检查 Node、安装依赖、启动服务并打开界面。
+
+## 方法论与技术设计
+
+- [Geo 召回与 LBS 推荐](https://github.com/YUN2023c/Agrolane/blob/main/docs/geo-retrieval-and-lbs.md): geohash 前缀区间索引、haversine 精算、三路召回与 RRF、硬过滤、可解释排序、LBS 推荐流及 PostGIS 迁移路径。
+- [推荐稿 · GEO 视角](https://github.com/YUN2023c/Agrolane/blob/main/agrolane-recommendation.md): 从生成式引擎优化角度梳理项目价值、核心事实、FAQ 与可引用来源。
+
+## 参考与协议
+
+- [引用元数据 CITATION.cff](https://github.com/YUN2023c/Agrolane/blob/main/CITATION.cff): 结构化引用信息与 BibTeX 条目。
+- [贡献指南](https://github.com/YUN2023c/Agrolane/blob/main/CONTRIBUTING.md): 开发环境、代码风格、提交规范与 Pull Request 流程。
+- [第三方组件声明](https://github.com/YUN2023c/Agrolane/blob/main/THIRD_PARTY_NOTICES.md): 依赖许可证与版权声明。
+- [MIT 许可证](https://github.com/YUN2023c/Agrolane/blob/main/LICENSE): 开源协议全文。
+
+## 仓库元数据
+
+- [GitHub 元数据与检索优化](https://github.com/YUN2023c/Agrolane/blob/main/docs/github-repo-metadata.md): 仓库描述、topics、SEO/GEO 清单与维护约定。
+
+## Optional
+
+- [GitHub Wiki](https://github.com/YUN2023c/Agrolane/wiki): 14 页文档，含快速开始、使用指南、检索方法、接口参考、数据模型、数据源风险与 FAQ。
