@@ -1,3 +1,5 @@
+// Copyright (c) 2026 李硕
+// SPDX-License-Identifier: MIT
 'use strict';
 /**
  * smoke-test.js —— 接口级冒烟测试

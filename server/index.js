@@ -1,3 +1,5 @@
+// Copyright (c) 2026 李硕
+// SPDX-License-Identifier: MIT
 'use strict';
 /**
  * index.js —— Node.js + SQLite 全栈服务

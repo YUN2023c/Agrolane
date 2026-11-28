@@ -1,3 +1,5 @@
+// Copyright (c) 2026 李硕
+// SPDX-License-Identifier: MIT
 'use strict';
 /**
  * recommend.js —— 基于 LBS 的内容推荐 + 工作台聚合

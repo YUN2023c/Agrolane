@@ -1,3 +1,5 @@
+// Copyright (c) 2026 李硕
+// SPDX-License-Identifier: MIT
 'use strict';
 /**
  * db.js —— SQLite 数据层（Node 内置 node:sqlite，零原生依赖）

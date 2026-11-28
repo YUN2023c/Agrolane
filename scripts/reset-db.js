@@ -1,3 +1,5 @@
+// Copyright (c) 2026 李硕
+// SPDX-License-Identifier: MIT
 'use strict';
 /** 重置数据库（删库重建 + 重新灌种子数据）。仅用于本地开发。 */
 const fs = require('node:fs');

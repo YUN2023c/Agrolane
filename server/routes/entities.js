@@ -1,3 +1,5 @@
+// Copyright (c) 2026 李硕
+// SPDX-License-Identifier: MIT
 'use strict';
 /** 主体（供方 / 买方 / 需求）增删改查 + 收藏 */
 const express = require('express');

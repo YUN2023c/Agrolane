@@ -1,3 +1,5 @@
+// Copyright (c) 2026 李硕
+// SPDX-License-Identifier: MIT
 'use strict';
 /** 洞察接口：工作台、LBS 推荐流、行情、地理聚合、行为埋点 */
 const express = require('express');

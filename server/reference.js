@@ -1,3 +1,5 @@
+// Copyright (c) 2026 李硕
+// SPDX-License-Identifier: MIT
 'use strict';
 /**
  * reference.js —— 系统基础字典（仅这两类数据预置，不预置任何业务数据）
